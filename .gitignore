@@ -1,0 +1,15 @@
+#ignore folders and files
+*.idea/
+.idea/
+.idea/*
+target/*
+*target/**
+*/target/**
+/target/*
+/target/
+/logs/*
+logs/*
+*/logs/**
+*.iml
+/komootWebAutomation.iml
+*null*
