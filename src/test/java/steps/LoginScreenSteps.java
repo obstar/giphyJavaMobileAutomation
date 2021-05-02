@@ -13,6 +13,11 @@ public class LoginScreenSteps {
 
     @When("I enter credentials of existing user on Login screen")
     public void iEnterCredentialsOfExistingUserOnLoginScreen() {
-        loginScreenActions.loginUserToApp(User.ExistingEmail, User.ExistingPassword);
+        loginScreenActions.enterUserCredentials(User.ExistingEmail, User.ExistingPassword);
+    }
+
+    @When("I tap Log In button on Login screen")
+    public void iTapLogInButtonOnLoginScreen() {
+        loginScreenActions.tapLogInButton();
     }
 }
