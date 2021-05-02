@@ -4,7 +4,7 @@ import io.cucumber.java.en.Given;
 import screenActions.MainScreenActions;
 
 public class MainScreenSteps {
-    public MainScreenActions mainScreenActions;
+    private MainScreenActions mainScreenActions;
 
     public MainScreenSteps(MainScreenActions mainScreenActions) {
         this.mainScreenActions = mainScreenActions;
