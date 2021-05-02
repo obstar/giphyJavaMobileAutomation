@@ -22,7 +22,6 @@ public class AppiumServer {
         // apk Capabilities
         dc = new DesiredCapabilities();
         dc.setCapability(MobileCapabilityType.PLATFORM_NAME, Platform.ANDROID);
-        dc.setCapability("platformName", "Android");
         dc.setCapability("deviceName", "SamsungS7Edge");
         dc.setCapability("automationName","UiAutomator2");
         dc.setCapability("app",app.getAbsolutePath());
