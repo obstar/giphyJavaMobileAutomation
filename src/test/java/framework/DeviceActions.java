@@ -35,6 +35,12 @@ public class DeviceActions extends BaseDriver {
         }
     }
 
+    public String getText(By target) {
+        waitElementExists(target);
+        return driver.findElement(target).getText();
+
+    }
+    
     public void sendKeys(By target, String textToSend){
         waitElementExists(target);
         waitElementClickable(target);
